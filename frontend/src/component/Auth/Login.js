@@ -123,7 +123,7 @@ const Login = () => {
                 colorScheme="red"
                 width="100%"
                 onClick={()=>{
-                    setEmail("manan@gmail.com");
+                    setEmail("ram@gmail.com");
                     setPassword("12345678");
                 }}
              >
