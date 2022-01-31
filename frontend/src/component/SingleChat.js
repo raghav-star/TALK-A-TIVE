@@ -10,7 +10,7 @@ import Lottie from 'react-lottie'
 import ScrollableChat from './ScrollableChat.js';
 import io from "socket.io-client"
 import animationData from "../animations/typing.json";
-const ENDPOINT = "https://raghav-talk-a-tive.herokuapp.com/";
+const ENDPOINT = "https://talk-a-tiive.herokuapp.com/";
 var socket,selectedChatCompare;
 
 const SingleChat = ({fethAgain,setFetchAgain}) => {
